@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+}
+.card-bg {
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.boss-container {
+  background-color: #ffbf1f;
+  width: 100%;
+  margin: 0px;
+  height: 140px;
+  border-top-left-radius: 5px;
+}
+.boss-heading {
+  margin: 0px;
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 26px;
+  padding: 26px;
+  padding-top: 32px;
+}
+.result-container {
+  background-color: #ffc533;
+  margin: 0px;
+  width: 100%;
+  height: 340px;
+  border-bottom-left-radius: 5px;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding-top: 100px;
+}
+.no-inputs {
+  width: 320px;
+  height: 180px;
+}
+.counter-bg {
+  background-color: #0f172a;
+  width: 35%;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.counter-heading {
+  margin: 0px;
+  color: #ffc533;
+  font-size: 25px;
+  font-family: 'Roboto';
+  text-align: center;
+  padding-top: 32px;
+}
+
+.text-input {
+  height: 29px;
+  width: 230px;
+  border-radius: 3px;
+  border: 0px;
+  outline: none;
+  background-color: #ffffff;
+  padding-left: 10px;
+  font-size: 10px;
+}
+
+.add-button {
+  height: 29px;
+  width: 60px;
+  border-radius: 3px;
+  border: 0px;
+  outline: none;
+  background-color: #ffc533;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #334155;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.input-container {
+  margin-top: 60px;
+}
+.ul-list {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 27px;
+}
